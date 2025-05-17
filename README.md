@@ -135,3 +135,20 @@ Or use all devices (insecure but easy):
 ```bash
 --privileged
 ```
+
+## Code in Docker Container
+Mostly coding can be done through host PC's by Extension
+1. Docker
+2. Remote/ Dev-Containers
+
+In vs Code Open Cmd Pallet (ctrl + shift + p / f1)
+Type
+```bash
+Remote-Containers: Attach to Running Container
+```
+
+Make sure to run the Docker Container before doing this otherwise vs code will not detect this
+
+Then a new tab of vs code will open and go to that directory and start coding
+
+### Make sure You made the directory Before You start coding in vs code
