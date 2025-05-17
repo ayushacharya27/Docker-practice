@@ -47,6 +47,11 @@ docker attach <container_id_or_name>
 
 Note: This attaches to the container’s main process.
 
+## If You want to open a new terminal rather than main process (Just how you open new terminal in ubuntu)
+```bash
+docker exec -it <container_id_or_name> bash
+```
+
 ## 🚪 Exit from Container without Stopping It
 Use the keyboard shortcut:
 ```
@@ -82,10 +87,7 @@ docker commit my_ros2_container ros2_image_with_ros_installed
 docker history <image_name>
 ```
 
-## 💻 Open Shell in a Running Container
-```bash
-docker exec -it <container_id_or_name> bash
-```
+
 
 ## 📄 Show Docker Image List
 ```bash
